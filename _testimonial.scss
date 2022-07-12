@@ -1,0 +1,152 @@
+.testimonial {
+  margin: 0 auto;
+}
+.test_hero {
+  padding: 12.3rem 13.5rem 12.5rem 13.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &-left {
+    max-width: 43.5rem;
+  }
+  &-right {
+    width: 59rem;
+    height: 65rem;
+    position: relative;
+  }
+}
+.left h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: -1%;
+  color: #1a093f;
+}
+.left p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  letter-spacing: -1%;
+  color: #6f6681;
+  margin-bottom: 2rem;
+}
+.line {
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
+  width: 12rem;
+  height: 0.1rem;
+  background-color: #f0f0f0;
+}
+.group_detail {
+  width: 16.2rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.circle_avt {
+  width: 4.8rem;
+  height: 100%;
+  background-image: url(./images/Ellipse\ 8.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.avt_detail h4 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: -1%;
+  color: #1a093f;
+}
+.avt_detail p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: -1%;
+  color: #6f6681;
+}
+.right_img {
+  width: 40rem;
+  height: 65rem;
+  margin: 0 auto;
+  border-radius: 58rem;
+  background-image: url(./images/talented-female-photographer-makes-professional-shots-during-adventure-trip-uses-retro-camera-wears-stylish-hat-yellow-raincoat-enjoys-holidays.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.rectangle_big {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  border: 1px solid #fac247;
+}
+.rectangle_small {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-image: url(./images/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 5.3rem;
+  left: 31.3rem;
+  z-index: 10;
+}
+.rectangle_bot {
+  position: absolute;
+  width: 23rem;
+  height: 7.6rem;
+  background-color: white;
+  border-radius: 3.8rem;
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.15);
+  bottom: 6.2rem;
+  right: 27.2rem;
+  //   z-index: 10  ;
+}
+.circle_in {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  text-align: center;
+}
+.circle_in img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rectangle_bot-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rectangle_bot-content h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a093f;
+}
+.rectangle_bot-content p {
+  margin-top: 0.2rem;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #6f6681;
+}

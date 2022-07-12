@@ -1,0 +1,89 @@
+.footer {
+  margin: 0 auto;
+  background-color: #4141a5;
+  padding: 11.6rem 13.5rem 6.7rem 13.5rem;
+
+  &_list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_item {
+    & h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      margin-bottom: 3rem;
+    }
+
+    & p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    & a {
+      display: block;
+      margin-bottom: 1.6rem;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+  }
+
+  &_group-icon {
+    margin-top: 4rem;
+
+    & a {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    & i {
+      font-size: 3.2rem;
+      margin-right: 2rem;
+    }
+  }
+
+  &_end {
+    margin-top: 10.4rem;
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    &-right {
+      & ul {
+        display: flex;
+      }
+
+      & li {
+        margin-left: 6.3rem;
+      }
+
+      & a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #ffffff;
+        opacity: 0.8;
+      }
+    }
+  }
+}

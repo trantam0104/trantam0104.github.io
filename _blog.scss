@@ -1,0 +1,89 @@
+.blog {
+  margin: 0 auto;
+  &_hero {
+    padding: 10.5rem 10rem;
+  }
+  &_title {
+    text-align: center;
+    margin-bottom: 8rem;
+    & h1 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      color: #1a093f;
+    }
+  }
+  &_content {
+    display: flex;
+    // align-items: center;
+  }
+  &_left {
+    display: flex;
+    align-items: center;
+    & img {
+      margin-right: 6rem;
+    }
+  }
+}
+.group_item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #1a093f;
+}
+.item_desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #6f6681;
+  margin-bottom: 3rem;
+  &-second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    letter-spacing: -0.01em;
+
+    color: #6f6681;
+  }
+}
+.item_child {
+  display: flex;
+  align-items: center;
+}
+.left_review {
+  width: 17rem;
+  height: 7rem;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.boxed {
+  position: relative;
+}
+.fa-play {
+  font-size: 1.8rem;
+  color: #fd5056;
+  margin-right: 1rem;
+}
+.icon_group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  & span {
+    color: #fd5056;
+  }
+}
+

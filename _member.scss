@@ -1,0 +1,41 @@
+.member {
+  margin: 0 auto;
+  &_hero {
+    padding: 14.4rem 13.5rem;
+    &-list {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  &_item-content {
+    // margin-right: 4rem;
+    max-width: 31rem;
+    & h6 {
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      letter-spacing: -1%;
+      color: #4141a5;
+    }
+    & h1 {
+      font-weight: 700;
+      font-size: 5rem;
+      line-height: 6rem;
+      letter-spacing: -1%;
+
+      color: #1a093f;
+    }
+  }
+  //   &_item {
+  //     margin-right: 5rem;
+  //   }
+  &_img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 3rem;
+  }
+  &_blocked {
+    background-color: #f5f5fa;
+    border-radius: 2rem;
+  }
+}

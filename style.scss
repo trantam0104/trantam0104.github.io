@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+@import "header";
+@import "about";
+@import "why";
+@import "portfolio";
+@import "service";
+@import "testimonial";
+@import "member";
+@import "blog";
+@import "footer";
