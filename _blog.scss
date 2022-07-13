@@ -86,4 +86,34 @@
     color: #fd5056;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .blog_hero {
+    padding: 1rem 1rem;
+  }
+  .blog_title h1 {
+    font-size: 3.4rem;
+    line-height: 1;
+  }
+  .blog_content {
+    display: block;
+  }
+  .blog_left {
+    display: block;
+  }
+  .blog_left img {
+    margin-right: 0;
+  }
+  .group_item {
+    margin-top: 3rem;
+  }
+  .group_item h2 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .item_desc {
+    line-height: 1;
+  }
+  .item_desc-second {
+    line-height: 1;
+  }
+}

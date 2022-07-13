@@ -150,3 +150,67 @@
   letter-spacing: -0.01em;
   color: #6f6681;
 }
+@media screen and (max-width: 768px) {
+  .test_hero {
+    padding: 3rem 1rem;
+    display: block;
+  }
+  .test_hero-left {
+    text-align: center;
+  }
+  .left {
+    margin-bottom: 3rem;
+  }
+  .left h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .line {
+    margin: 3rem auto;
+  }
+  .group_detail {
+    margin: 0 auto;
+  }
+  .test_hero-right {
+    width: calc(59rem / 2);
+    height: calc(65rem / 2);
+    margin: 0 auto;
+  }
+  .right_img {
+    width: 20rem;
+    height: calc(65rem / 2);
+  }
+  .rectangle_big {
+    width: calc(23rem / 2);
+    height: calc(23rem / 2);
+  }
+  .rectangle_small {
+    width: 6rem;
+    height: 6rem;
+    top: 3rem;
+    left: 16rem;
+  }
+  .rectangle_bot {
+    width: calc(23rem / 2);
+    height: calc(7.6rem / 2);
+    right:calc(27.2rem / 2);
+    bottom: calc(6.2rem / 2);
+  }
+  .rectangle_bot-content h4 {
+    font-size: 0.8rem;
+    line-height: 1;
+    margin-left: 1rem;
+  }
+  .rectangle_bot-content p{
+    margin-top:0.1rem ;
+    font-size: 0.6rem;line-height: 1;
+    margin-left: 1rem;
+  }
+  .circle_in{
+    
+    width: 3rem;
+    height: 3rem;
+    top: 0.4rem;
+    left: 0.4rem;
+  }
+}

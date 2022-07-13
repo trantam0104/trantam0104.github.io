@@ -87,3 +87,22 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 3rem 1rem;
+  }
+  .footer_list {
+    display: block;
+  }
+  .footer_end {
+    margin-top: 4rem;
+    display: block;
+  }
+  .footer_end-right ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer_end-right li {
+    margin-left: 0%;
+  }
+}

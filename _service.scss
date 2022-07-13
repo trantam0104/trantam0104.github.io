@@ -9,7 +9,7 @@
       //   justify-content: space-between;
     }
   }
-  &_hero h1 {
+  &_hero h2 {
     font-weight: 700;
     font-size: 5rem;
     line-height: 7.5rem;
@@ -64,4 +64,32 @@
     letter-spacing: -1%;
     color: #6f6681;
   }
+}
+@media screen and (max-width: 768px) {
+.service_hero{
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.service_hero h2{
+  font-size: 3.4rem;
+  line-height: 1.2;
+  margin-bottom:2rem;
+}
+.service_hero-content{
+  display: block;
+}
+.content_left{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.content_list{
+  margin-left: 0;
+  text-align: center;
+}
+.content_item{
+  display: block;
+}
+.content_item h2{
+  margin-right: 0;
+}
 }

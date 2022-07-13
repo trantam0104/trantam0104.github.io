@@ -56,3 +56,38 @@
     color: #6f6681;
   }
 }
+@media screen and (max-width: 768px) {
+  .port_hero{
+    display: flex;
+    flex-direction: column;
+  }
+    .hero_content{
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .hero_content h1{
+      font-size:3.4rem;
+      line-height: 1;
+
+    }
+    .hero_footer{
+      padding: 0 1rem;
+      background-color: transparent;
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+    .hero_footer-item{
+      text-align: center;
+    }
+    .hero_footer-item h2{
+      font-size:3rem;
+      line-height: 1.2rem;
+     
+    }
+    .port_hero img{
+      order: 2;
+      position: static;
+      top: 0;
+      left: 0;
+    }
+}

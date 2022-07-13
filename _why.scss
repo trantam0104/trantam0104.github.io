@@ -72,3 +72,29 @@
   transform: translate(-50%, -50%);
   // z-index: -10;
 }
+@media screen and (max-width: 768px) {
+  .why_hero{
+    padding: 9rem 1rem 0 1rem;
+  }
+  .why_hero h1{
+    font-size: 3.4rem;
+    line-height: 1;
+  }
+  .why_hero-list{
+    display: block;
+  }
+  .why_hero-item{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3rem;
+  }
+  .why_hero-item h2{
+    margin-top: 1rem;
+  }
+  .why_hero-item p{
+    line-height: 1.4rem;
+  }
+  .vector{
+    display: none;
+  }
+}
